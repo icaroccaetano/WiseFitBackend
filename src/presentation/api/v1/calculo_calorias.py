@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from ..services.calculo_calorias import calculo_de_calorias
+from src.core.use_cases.calculo_calorias import calculo_de_calorias
 from pydantic import BaseModel
 
 calculo_calorias_router = APIRouter()
